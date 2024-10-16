@@ -12,6 +12,8 @@ header {
 /* Style rules for navigation area */
 nav {
     background-color: #ffd8b7;
+    font-family: Cambria, Cochin, Georgia, Times;
+    font-weight: bolder;
 }
 
 .mobile-nav a {
