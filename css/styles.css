@@ -20,6 +20,7 @@ nav {
     color: navy;
     text-align: center;  
     font-size: 2em;
+    font-family: Arial, Helvetica, sans-serif;
     text-decoration: none;
     padding: 3%;
     display: block;
@@ -44,13 +45,13 @@ nav {
 footer {
     text-align: center;
     font-size: 0.85em;
-    background-color: #2a1f14;
-    color: #f6eee4;
+    background-color: #ffd8b7;
+    color: navy;
     padding: 1% 0;
 }
 
 footer a {
-    color: #f6eee4;
+    color: navy;
     text-decoration: none;
 }
 
