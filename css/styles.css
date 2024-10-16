@@ -11,11 +11,11 @@ header {
 
 /* Style rules for navigation area */
 nav {
-    background-color: #ddfcfa;
+    background-color: darkorange;
 }
 
 .mobile-nav a {
-    color: #2a1f14;
+    color: cornflowerblue;
     text-align: center;  
     font-size: 2em;
     text-decoration: none;
