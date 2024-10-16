@@ -1,7 +1,41 @@
+body{
+    background-color: #ddfcfa;
+
+}
 /* Style rules for header content */
 header {
-    text-align: center
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times;
     
+}
+
+/* Style rules for navigation area */
+nav {
+    background-color: #ddfcfa;
+}
+
+.mobile-nav a {
+    color: #2a1f14;
+    text-align: center;  
+    font-size: 2em;
+    text-decoration: none;
+    padding: 3%;
+    display: block;
+}
+
+.mobile-nav a.nav-icon {
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: #f6eee4;
+    padding: 2%;
+}
+
+.nav-icon div {
+    height: 40px;
+    width: 40px;
+    color: #2a1f14;
 }
 
 /* Style rules for footer content */
@@ -16,4 +50,16 @@ footer {
 footer a {
     color: #f6eee4;
     text-decoration: none;
+}
+
+/* Media Query for Tablet Viewport */
+@media screen and (min-width: 620px), print {
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1000px), print {
+}
+
+/* Media Query for Desktop Viewport */
+@media screen and (min-width: 1000px), print {
 }
