@@ -11,16 +11,13 @@ header {
 
 /* Style rules for navigation area */
 nav {
-    background-color: #ffd8b7;
-    font-family: Cambria, Cochin, Georgia, Times;
-    font-weight: bolder;
+    background-color: darkorange;
 }
 
 .mobile-nav a {
-    color: navy;
+    color: cornflowerblue;
     text-align: center;  
     font-size: 2em;
-    font-family: Cambria, Cochin, Georgia, Times, ;
     text-decoration: none;
     padding: 3%;
     display: block;
@@ -45,13 +42,13 @@ nav {
 footer {
     text-align: center;
     font-size: 0.85em;
-    background-color: #ffd8b7;
-    color: navy;
+    background-color: #2a1f14;
+    color: #f6eee4;
     padding: 1% 0;
 }
 
 footer a {
-    color: navy;
+    color: #f6eee4;
     text-decoration: none;
 }
 
