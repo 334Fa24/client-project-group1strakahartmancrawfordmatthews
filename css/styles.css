@@ -11,10 +11,14 @@ header {
 
 /* Style rules for navigation area */
 nav {
+<<<<<<< HEAD
+    background-color: #ffd8b7;
+=======
     background-color: rgb(255, 214, 164);
     font-family: Cambria, Cochin, Georgia, Times;
     font-weight: bolder;
     color: navy;
+>>>>>>> ae845dbb1c90fdd67a90d6a0446633120ba1fbaa
 }
 
 .mobile-nav a {
@@ -57,12 +61,62 @@ footer a {
 
 /* Media Query for Tablet Viewport */
 @media screen and (min-width: 620px), print {
+    
+    /* Tablet Viewport: Show tab-desk class, hide mobile class */
+    .tab-desk {
+        display: block;
+    }
+
+    .mobile, .mobile-nav {
+        display: none;
+    }
+    
+    /* Tablet Viewport: Style rules for nav area */
+    nav ul {
+        list-style-type: none;
+        text-align: center;
+    }
+    
+    nav li {
+        border-top: none;
+        display: inline-block;
+        font-size: 1.25em;
+        font-family: Geneva, Arial, sans-serif;
+        font-weight: bold;
+    }
+    
+    nav li a {
+        padding: 0.5em;
+        display: block;
+        color: #f6eee4;
+        text-decoration: none;
+    }
 }
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1000px), print {
-}
 
-/* Media Query for Desktop Viewport */
-@media screen and (min-width: 1000px), print {
+    /* Desktop Viewport: Show desktop class, hide mobile-tablet class */
+    .desktop {
+        display: block;
+    }
+    
+    .mobile-tablet {
+        display: none;
+    }
+    
+    /* Desktop Viewport: Style rules for nav area */
+    nav li {
+        font-size: 1.5em;
+    }
+    
+    nav li a {
+        padding: 0.5em 1.5em;
+    }
+    
+    nav li a:hover {
+        color: #2a1f14;
+        background-color: #f6eee4;
+        opacity: 0.5;
+    }
 }
