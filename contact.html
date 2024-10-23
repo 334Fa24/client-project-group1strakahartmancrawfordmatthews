@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Furry Fresh Grooming</title>
+	<meta charset="utf-8">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+   
+    <body>
+    
+    <!--Mobile Nav-->
+    <nav class="mobile-nav">
+        <div id="menu-links">
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a>
+            <a href="service.html">Services</a>
+            <a href="gallery.html">Gallery</a>
+            <a href="FAQS.html">FAQs</a>
+            <a href="contact.html">Contact Us</a>
+        </div>
+    </nav>
+    
+    <main>
+        <div id="contact">
+			<h2>Looking to schedule an appointment? Contact us today.</h2> 					
+            <h4 class="mobile tel-link"><a href="tel:1234567890">(123) 456-7890</a></h4>
+            <h4>Email us: <a href="mailto:furryfreshgrooming@gmail.com" class="contact-email-link">furryfreshgrooming@gmail.com</a></h4> 
+            <h4>Visit us at: 123 Main Street, Maryville, MO 64468</h4>
+        </div>    
+    
+        <div id="form">
+                
+                <h2>Complete the form below to schedule an appointment.</h2> 
+            
+                <form class="form-grid"><!-- Start Form -->
+                    
+                    <fieldset>
+                        <legend>Customer Information</legend>
+                        <label for="fName">First Name:</label>
+                        <input type="text" name="fName" id="fName" required>
+
+                        <label for="lName">Last Name:</label>
+                        <input type="text" name="lName" id="lName" required> 
+                        
+                        <label for="email">Email:</label>
+                        <input type="email" name="email" id="email" required>
+                        
+                        <label for="phone">Phone:</label>
+                        <input type="tel" id="phone" name="phone" required>
+                    </fieldset>
+                    
+                    <fieldset>
+                            <legend>Referral Source</legend>
+                            <label for="reference">How did you find us?</label>
+                            <select name="reference" id="reference">
+                                <option value="ad">Advertisement</option>
+                                <option value="friend">Friend</option>
+                                <option value="google">Google</option>
+                                <option value="social">Social Media</option>
+                                <option value="other">Other</option>
+                            </select>
+
+                            <label for="questions">Questions?</label>
+                            <textarea id="questions" name="questions" rows="5" cols="35"></textarea>
+                    
+                    </fieldset>
+                    
+                    <input type="submit" id="submit" value="Submit" class="btn">
+                    
+                </form>
+            
+            </div>
+    </main>
+        
+     <footer>
+         <div class="copyright">
+            <p>&copy; Copyright 2024. All Rights Reserved.</p>
+         </div>
+    </footer>
+        
+    </body>
+
+</html>
