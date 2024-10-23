@@ -20,14 +20,10 @@ header {
 
 /* Style rules for navigation area */
 nav {
-<<<<<<< HEAD
     background-color: #ffd8b7;
-=======
-    background-color: rgb(255, 214, 164);
     font-family: Cambria, Cochin, Georgia, Times;
     font-weight: bolder;
     color: navy;
->>>>>>> ae845dbb1c90fdd67a90d6a0446633120ba1fbaa
 }
 
 .mobile-nav a {
