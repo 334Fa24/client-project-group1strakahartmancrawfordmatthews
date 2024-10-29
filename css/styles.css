@@ -125,3 +125,20 @@ footer a {
         opacity: 0.5;
     }
 }
+
+/* style guide for rewards pop up */
+{box-sizing: border-box;}
+
+/* Button used to open the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: navy;
+  color: white;
+  padding: 250px 250px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: sticky;
+  bottom: 47px;
+    left: 71px;
+    right: 80px;
+}
