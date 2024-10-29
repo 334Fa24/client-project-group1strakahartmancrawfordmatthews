@@ -40,7 +40,7 @@ nav {
     position: absolute;
     left: 0;
     top: 0;
-    color: #f6eee4;
+    color: navy;
     padding: 2%;
 }
 
@@ -93,7 +93,7 @@ footer a {
     nav li a {
         padding: 0.5em;
         display: block;
-        color: #f6eee4;
+        color: navy;
         text-decoration: none;
     }
 }
