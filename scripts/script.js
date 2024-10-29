@@ -1,3 +1,4 @@
+
 //Hamburger menu function
 function menu() {
     var navlinks = document.getElementById("nav-links");
@@ -10,3 +11,11 @@ function menu() {
         menuicon.style.color = "#f6eee4";
     }
 }
+
+
+// When the user clicks on <div>, open the popup
+function myFunction() {
+  var popup = document.getElementById("myPopup");
+  popup.classList.toggle("show");
+}
+
