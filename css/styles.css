@@ -8,7 +8,7 @@ img {
     width: 100%;
     height: 280px;
     margin: auto;
-    /*display: inline-block;*/
+    display: inline-block;
 }
 
 /* Style rules for header content */
@@ -40,7 +40,7 @@ nav {
     position: absolute;
     left: 0;
     top: 0;
-    color: #f6eee4;
+    color: navy;
     padding: 2%;
 }
 
@@ -93,7 +93,7 @@ footer a {
     nav li a {
         padding: 0.5em;
         display: block;
-        color: #f6eee4;
+        color: navy;
         text-decoration: none;
     }
 }
