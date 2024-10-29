@@ -148,6 +148,9 @@ footer a {
         border: 1px solid #2a1f14;
         border-collapse: collapse;
         margin: 0 auto;
+        width: 95%;
+        height: min-content;
+        table-layout: auto;
     }
 
     caption {
@@ -174,6 +177,10 @@ footer a {
     li, td {
         font-weight: bold;
     }
+
+td {
+    height: 10px;
+}
 
 /* Media Query for Desktop Viewport */
 @media screen and (min-width: 1000px), print {
