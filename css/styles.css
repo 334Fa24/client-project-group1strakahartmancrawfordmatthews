@@ -8,7 +8,7 @@ img {
     width: 100%;
     height: 280px;
     margin: auto;
-    /*display: inline-block;*/
+    display: inline-block;
 }
 
 /* Style rules for header content */
