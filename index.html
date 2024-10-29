@@ -62,7 +62,25 @@ Word of their mobile grooming service spread quickly. Soon, Furry Fresh Grooming
 
 As Furry Fresh Grooming grew, so did their reputation for exceptional service. They became known for their attention to detail, their use of high-quality products, and their commitment to making each grooming experience a positive one. And it all started with one scruffy mutt named Max.</p></div>
         </main>
+        
+<!-- A button to open the popup form -->
+<button class="open-button" onclick="openForm()">Join Rewards Today!</button>
 
+<!-- The form -->
+<div class="form-popup" id="myForm">
+  <form action="/action_page.php" class="form-container">
+    <h1>Join Rewards Today!</h1>
+
+    <label for="email"><b>Email</b></label>
+    <input type="text" placeholder="Enter Email" name="email" required>
+
+    <label for="psw"><b>Password</b></label>
+    <input type="password" placeholder="Enter Password" name="psw" required>
+
+    <button type="submit" class="btn"></button>
+    <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+  </form>
+</div>
         <footer>
          
             <div class="copyright">
