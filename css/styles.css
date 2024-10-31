@@ -6,16 +6,15 @@ body{
 
 img {
     width: 100%;
-    height: 280px;
     margin: auto;
     display: inline-block;
+    height: auto;
 }
 
 /* Style rules for header content */
 header {
     text-align: center;
     font-family: Cambria, Cochin, Georgia, Times;
-    
 }
 
 /* Style rules for navigation area */
@@ -24,6 +23,7 @@ nav {
     font-family: Cambria, Cochin, Georgia, Times;
     font-weight: bolder;
     color: navy;
+    text-align: center;
 }
 
 .mobile-nav a {
@@ -140,6 +140,10 @@ footer a {
         display: block;
         color: navy;
         text-decoration: none;
+    }
+    
+    nav {
+        display: none;
     }
 }
 
