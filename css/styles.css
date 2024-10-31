@@ -51,23 +51,15 @@ nav {
 }
 
 /* Style rules for main content */ 
-#appointments {
-    text-align: center;
-}
-
-#appointments .appointments-email-link {
-    color: #666600; 
-    text-decoration: none;
-}
-
 #form {
     margin-top: 2%; 
-    background-color: #f2f2f2; 
+    background-color: #ffd8b7; 
     padding: 2%; 
+    margin-bottom: 5%
 }
 
-#form h2 {
-    text-align: center;
+h2, h4 {
+   text-align: center;
 }
 
 /* Style rules for form elements */
@@ -90,9 +82,13 @@ form #submit {
     border: none;
     display: block;
     padding: 2%; 
-    background-color: #b3b3b3;
+    background-color: #ddfcfa;
     font-size: 1em; 
     border-radius: 10px;
+}
+
+#form h2 {
+    text-align: center;
 }
 
 /* Style rules for footer content */
