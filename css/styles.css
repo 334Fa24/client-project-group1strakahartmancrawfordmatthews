@@ -62,7 +62,7 @@ nav {
 
 #form {
     margin-top: 2%; 
-    background-color: #f2f2f2; 
+    background-color: #ffd8b7; 
     padding: 2%; 
 }
 
@@ -90,7 +90,7 @@ form #submit {
     border: none;
     display: block;
     padding: 2%; 
-    background-color: #b3b3b3;
+    background-color: #ddfcfa;
     font-size: 1em; 
     border-radius: 10px;
 }
