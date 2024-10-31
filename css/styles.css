@@ -209,59 +209,31 @@ td {
         opacity: 0.5;
     }
 }
+{box-sizing: border-box;}
 
-/* Popup container */
-.popup {
-  position: absolute;
-    bottom: 30px;
-    left: 215px;
-    border-color: navy;
-    border-block: bold;
-    border:
+/* Button used to open and close the contact form - fixed at the bottom of the page */
+.open-button {
+  background-color: #175b83;
+  color: white;
+  padding: 16px 20px;
+  border: none;
   cursor: pointer;
+  opacity: 3.2;
+  position: sticky;
+  bottom: 130px;
+  left: 451px;
+  width: 400px;
+  height: 314px;
+}
+.close-button {
+  background-color: red;
+
+/* Add a red background color to the cancel button */
+.form-container .cancel {
+  background-color: red;
 }
 
-/* The actual popup (appears on top) */
-.popup .popuptext {
-  visibility: hidden;
-  width: 160px;
-  background-color: #555;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 8px 0;
-  position: absolute;
-  z-index: 1;
-  bottom: 125%;
-  left: 50%;
-  margin-left: -80px;
-}
-
-/* Popup arrow */
-.popup .popuptext::after {
-  content: "";
-  position: absolute;
-  top: 100%;
-  left: 59px;
-  border-width: 5px;
-  border-style: solid;
-  border-color: navy;
-}
-
-/* Toggle this class when clicking on the popup container (hide and show the popup) */
-.popup .show {
-  visibility: visible;
-  -webkit-animation: fadeIn 1s;
-  animation: fadeIn 1s
-}
-
-/* Add animation (fade in the popup) */
-@-webkit-keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity: 1;}
-}
-
-@keyframes fadeIn {
-  from {opacity: 0;}
-  to {opacity:1 ;}
+/* Add some hover effects to buttons */
+.form-container .btn:hover, .open-button:hover {
+  opacity: 1;
 }
