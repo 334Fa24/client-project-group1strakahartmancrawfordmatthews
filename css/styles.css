@@ -62,9 +62,9 @@ h2, h4 {
    text-align: center;
 }
 
-#add-on, #mobilegrooming {
+/*#add-on, #mobilegrooming {
     align-content: center; 
-  }
+  } */
 
 /* Style rules for form elements */
 fieldset, input, select, textarea {
@@ -219,6 +219,21 @@ footer a {
         
     }
 }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  
+    /* Mobile Viewport: Show mobile class, hide desktop-tablet class */
+    .tab-desk {
+        display: none;
+    }
+
+    .mobile, .mobile-nav {
+        display: block;
+    }
+    
+}
+
 {box-sizing: border-box;}
 
 /* Button used to open and close the contact form - fixed at the bottom of the page */
