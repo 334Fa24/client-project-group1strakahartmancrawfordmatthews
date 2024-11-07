@@ -241,31 +241,7 @@ footer a {
     
 }
 
-{box-sizing: border-box;}
-
-/* Button used to open and close the contact form - fixed at the bottom of the page */
-.open-button {
-  background-color: #175b83;
-  color: white;
-  padding: 16px 20px;
-  border: none;
-  cursor: pointer;
-  opacity: 3.2;
-  position: sticky;
-  bottom: 130px;
-  left: 451px;
-  width: 400px;
-  height: 400px;
-}
-.close-button {
-  background-color: red;
-
-/* Add a red background color to the cancel button */
-.form-container .cancel {
-  background-color: red;
-}
-
-/* Add some hover effects to buttons */
-.form-container .btn:hover, .open-button:hover {
-  opacity: 1;
+#1 {
+    background-color: navy;
+    padding: initial;
 }
