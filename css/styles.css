@@ -40,14 +40,15 @@ nav {
     position: absolute;
     left: 0;
     top: 0;
-    color: navy;
+    color: white;
     padding: 2%;
+    background-color: #ffd8b7;
 }
 
 .nav-icon div {
     height: 40px;
     width: 40px;
-    color: #2a1f14;
+    color: white; 
 }
 
 /* Style rules for main content */ 
@@ -94,6 +95,12 @@ form #submit {
 #form h2 {
     text-align: center;
 }
+
+/* Style rules for Hamburger Icon */
+.topnav a.icon {
+  background: white;
+}
+
 
 /* Style rules for footer content */
 footer {
