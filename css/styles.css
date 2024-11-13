@@ -14,13 +14,13 @@ img {
 /* Style rules for header content */
 header {
     text-align: center;
-    font-family: Cambria, Cochin, Georgia, Times;
+    font-family: monospace;
 }
 
 /* Style rules for navigation area */
 nav {
     background-color: #ffd8b7;
-    font-family: Cambria, Cochin, Georgia, Times;
+    font-family: monospace;
     font-weight: bolder;
     color: navy;
     text-align: center;
