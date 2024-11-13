@@ -6,8 +6,8 @@ body{
 
 img {
     width: 100%;
-    margin: auto;
-    display: inline-block;
+    margin:auto;
+    display:inline-block;
     height: auto;
 }
 
@@ -50,6 +50,22 @@ nav {
     width: 40px;
     color: white; 
 }
+/* Stlye rules for popup page*/
+ ul {
+    font-family: monospace;
+}
+
+#popup-intro {
+    display: grid;
+    grid-template-columns: auto auto;
+    font-family: monospace;
+    font-size: larger;
+}
+h1,h2,h3,h4,h5 {
+    font-family: monospace;
+    font-size: larger;
+    text-align: right;
+}
 
 /* Style rules for main content */ 
 #form {
@@ -57,10 +73,6 @@ nav {
     background-color: #ffd8b7; 
     padding: 2%; 
     margin-bottom: 5%
-}
-
-h2, h4 {
-   text-align: center;
 }
 
 /*#add-on, #mobilegrooming {
