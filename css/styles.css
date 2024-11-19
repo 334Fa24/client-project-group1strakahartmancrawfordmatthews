@@ -4,19 +4,24 @@ body{
 
 }
 
-img {
-    width: 100%;
-    margin:auto;
-    display:inline-block;
-    height: auto;
-}
-
 /* Style rules for header content */
 header {
     text-align: center;
     font-family: monospace;
 }
+/* Style rules for main contnet */
+main {
+    text-align: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    font-family: monospace;
+}
 
+#pop {
+    align-content: center;
+    font-family: monospace;
+    
+}
 /* Style rules for navigation area */
 nav {
     background-color: #ffd8b7;
@@ -48,23 +53,25 @@ nav {
 .nav-icon div {
     height: 40px;
     width: 40px;
-    color: white; 
+    color: white;
 }
 /* Stlye rules for popup page*/
  ul {
     font-family: monospace;
 }
 
+img{
+    align-content: center;
+}
+
 #popup-intro {
-    display: grid;
-    grid-template-columns: auto auto;
     font-family: monospace;
     font-size: larger;
 }
 h1,h2,h3,h4,h5 {
     font-family: monospace;
     font-size: larger;
-    /*text-align: right;*/
+   /* text-align: right;*/
 }
 
 /* Style rules for main content */ 
