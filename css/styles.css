@@ -64,7 +64,7 @@ nav {
 h1,h2,h3,h4,h5 {
     font-family: monospace;
     font-size: larger;
-    text-align: right;
+    /*text-align: right;*/
 }
 
 /* Style rules for main content */ 
