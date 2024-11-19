@@ -135,8 +135,23 @@ footer a {
     text-decoration: none;
 }
 
+
+@media screen and (max-width: 629px) {
+  /* For mobile phones: */
+  
+    /* Mobile Viewport: Show mobile class, hide desktop-tablet class */
+    .tab-desk {
+        display: none;
+    }
+
+    .mobile, .mobile-nav {
+        display: block;
+    }
+    
+}
+
 /* Media Query for Tablet Viewport */
-@media screen and (min-width: 620px), print {
+@media screen and (min-width: 630px), print {
     
     /* Tablet Viewport: Show tab-desk class, hide mobile class */
     .tab-desk {
@@ -213,7 +228,7 @@ footer a {
     }
 
 /* Media Query for Desktop Viewport */
-@media screen and (min-width: 1000px), print {
+@media screen and (min-width: 1015px), print {
 
     /* Desktop Viewport: Show desktop class, hide mobile-tablet class */
     .desktop {
@@ -244,18 +259,4 @@ footer a {
         grid-template-columns: auto auto;
         
     }
-}
-
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
-  
-    /* Mobile Viewport: Show mobile class, hide desktop-tablet class */
-    .tab-desk {
-        display: none;
-    }
-
-    .mobile, .mobile-nav {
-        display: block;
-    }
-    
 }
