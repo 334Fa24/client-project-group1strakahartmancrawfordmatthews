@@ -68,10 +68,19 @@ img{
     font-family: monospace;
     font-size: larger;
 }
-h1,h2,h3,h4,h5 {
-    font-family: monospace;
+dt{
     font-size: larger;
-   /* text-align: right;*/
+    font-weight: bold;
+    text-align: left;
+    padding-left: 20%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+}
+
+dd {
+   text-align: left;
+    padding-left: 25%;
+    
 }
 
 /* Style rules for main content */ 
