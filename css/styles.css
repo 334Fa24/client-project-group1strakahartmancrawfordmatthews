@@ -23,6 +23,7 @@ main {
     text-align: center;
     font-family: monospace;
     font-size: large;
+    padding-bottom: 7%;
 }
 /* Style rules for navigation area */
 nav {
@@ -61,6 +62,9 @@ nav {
  ul {
     font-family: monospace;
 }
+
+/*#pop-upimg {
+    align-content: center;
 
 #popup-intro {
     font-family: monospace;
