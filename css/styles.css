@@ -15,12 +15,15 @@ main {
     padding-left: 5%;
     padding-right: 5%;
     font-family: monospace;
+    font-size: large;
+    line-height: 30px;
 }
 
 #pop {
-    align-content: center;
+    text-align: center;
     font-family: monospace;
-    
+    font-size: large;
+    padding-bottom: 7%;
 }
 /* Style rules for navigation area */
 nav {
@@ -62,7 +65,7 @@ nav {
 
 #pop-upimg {
     align-content: center;
-} 
+}
 
 #popup-intro {
     font-family: monospace;
