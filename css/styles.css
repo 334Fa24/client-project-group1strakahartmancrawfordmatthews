@@ -63,6 +63,13 @@ nav {
     font-family: monospace;
 }
 
+img {
+    width: 100%;
+    margin:auto;
+    display:inline-block;
+    height: auto;
+}
+
 #pop-upimg {
     align-content: center;
 }
